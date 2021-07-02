@@ -1,0 +1,6 @@
+keys:
+- name: dlp_info_type
+- name: dlp_success
+- name: dlp_status
+- name: dlp_job_type
+type: dlp

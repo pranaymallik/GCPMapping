@@ -1,0 +1,5 @@
+keys:
+- name: cloudfunctions_memory
+- name: cloudfunctions_status
+- name: cloudfunctions_trigger_type
+type: cloudfunctions

@@ -1,0 +1,8 @@
+keys:
+- name: storage_response_code
+- name: storage_method
+- name: storage_authentication_method
+- name: storage_access_id
+- name: storage_acl_operation
+- name: storage_storage_class
+type: storage

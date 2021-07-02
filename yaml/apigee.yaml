@@ -1,0 +1,26 @@
+keys:
+- name: apigee_scope
+- name: apigee_unit
+- name: apigee_area
+- name: apigee_pool
+- name: apigee_keyspace
+- name: apigee_table
+- name: apigee_percentile
+- name: apigee_method
+- name: apigee_status
+- name: apigee_severity
+- name: apigee_direction
+- name: apigee_anomaly_type
+- name: apigee_policy_name
+- name: apigee_time_window
+- name: apigee_response_code
+- name: apigee_fault_code
+- name: apigee_fault_source
+- name: apigee_source
+- name: apigee_type
+- name: apigee_state
+- name: apigee_target_type
+- name: apigee_target_endpoint
+- name: apigee_dataset
+- name: apigee_service
+type: apigee

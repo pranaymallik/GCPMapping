@@ -1,0 +1,3 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.dns.query.latencies,DNS server latencies,DELTA,DISTRIBUTION,ms,dns_query,"Distribution of latency of DNS requests. Sampled every 60 seconds. After sampling, data is not visible for up to 60 seconds."
+gcp.dns.query.response_count,DNS response counts,DELTA,INT64,{request},dns_query,"Rate of all DNS responses from private DNS. Sampled every 60 seconds. After sampling, data is not visible for up to 60 seconds."

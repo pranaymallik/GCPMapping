@@ -1,0 +1,5 @@
+keys:
+- name: recaptchaenterprise_action
+- name: recaptchaenterprise_platform
+- name: recaptchaenterprise_challenge
+type: recaptchaenterprise

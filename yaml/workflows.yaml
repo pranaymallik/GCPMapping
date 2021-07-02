@@ -1,0 +1,4 @@
+keys:
+- name: workflows_revision_id
+- name: workflows_status
+type: workflows

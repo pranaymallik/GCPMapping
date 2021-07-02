@@ -1,0 +1,3 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.networksecurity.https.previewed_request_count,Previewed request count,DELTA,INT64,1,network_security_policy,"Queries that would be affected by rules currently in the 'preview' mode, if those rules were to be made non-preview. Sampled every 60 seconds. After sampling, data is not visible for up to 120 seconds."
+gcp.networksecurity.https.request_count,Request count,DELTA,INT64,1,network_security_policy,"Actual result of policy enforcement on queries. Sampled every 60 seconds. After sampling, data is not visible for up to 120 seconds."

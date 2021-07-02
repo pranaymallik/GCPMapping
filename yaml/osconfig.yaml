@@ -1,0 +1,3 @@
+keys:
+- name: osconfig_state
+type: osconfig

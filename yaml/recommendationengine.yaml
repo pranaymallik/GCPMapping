@@ -1,0 +1,4 @@
+keys:
+- name: recommendationengine_event_type
+- name: recommendationengine_status
+type: recommendationengine

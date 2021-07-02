@@ -1,0 +1,6 @@
+keys:
+- name: metastore_tier
+- name: metastore_version
+- name: metastore_release_tag
+- name: metastore_method_name
+type: metastore

@@ -1,0 +1,5 @@
+keys:
+- name: managedidentities_trust_direction
+- name: managedidentities_target_domain_name
+- name: managedidentities_trust_type
+type: managedidentities

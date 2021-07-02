@@ -1,0 +1,6 @@
+keys:
+- name: bigquerydatatransfer_state
+- name: bigquerydatatransfer_run_cause
+- name: bigquerydatatransfer_status
+- name: bigquerydatatransfer_completion_state
+type: bigquerydatatransfer

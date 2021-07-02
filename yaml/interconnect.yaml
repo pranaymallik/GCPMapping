@@ -1,0 +1,4 @@
+keys:
+- name: interconnect_link_id
+- name: interconnect_laser_index
+type: interconnect

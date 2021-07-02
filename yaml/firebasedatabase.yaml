@@ -1,0 +1,8 @@
+keys:
+- name: firebasedatabase_type
+- name: firebasedatabase_operation_type
+- name: firebasedatabase_reused_ssl_session
+- name: firebasedatabase_request_method
+- name: firebasedatabase_ruleset_label
+- name: firebasedatabase_result
+type: firebasedatabase

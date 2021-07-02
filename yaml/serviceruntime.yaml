@@ -1,0 +1,12 @@
+keys:
+- name: serviceruntime_protocol
+- name: serviceruntime_response_code
+- name: serviceruntime_response_code_class
+- name: serviceruntime_grpc_status_code
+- name: serviceruntime_quota_metric
+- name: serviceruntime_limit_name
+- name: serviceruntime_method
+- name: serviceruntime_quota_name
+- name: serviceruntime_credential_id
+- name: serviceruntime_quota_location
+type: serviceruntime

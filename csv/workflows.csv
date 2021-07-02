@@ -1,0 +1,7 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.workflows.execution_times,Execution times,DELTA,DISTRIBUTION,s,workflows.googleapis.com/Workflow,Distribution of workflow execution times.
+gcp.workflows.external_step_count,External step count,DELTA,INT64,1,workflows.googleapis.com/Workflow,Count of executed external steps for the workflow.
+gcp.workflows.finished_execution_count,Finished execution count,DELTA,INT64,1,workflows.googleapis.com/Workflow,Count of finished executions for the workflow.
+gcp.workflows.internal_step_count,Internal step count,DELTA,INT64,1,workflows.googleapis.com/Workflow,Count of executed internal steps for the workflow.
+gcp.workflows.sent_bytes_count,Network bytes sent,DELTA,INT64,By,workflows.googleapis.com/Workflow,"Count of outgoing HTTP bytes (URL, headers and body) sent by the workflow."
+gcp.workflows.started_execution_count,Started execution count,DELTA,INT64,1,workflows.googleapis.com/Workflow,Count of started executions for the workflow.

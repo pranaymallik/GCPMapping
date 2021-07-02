@@ -1,0 +1,12 @@
+keys:
+- name: composer_status
+- name: composer_api_version
+- name: composer_api_method
+- name: composer_image_version
+- name: composer_environment_type
+- name: composer_state
+- name: composer_queue_name
+- name: composer_instance_id
+- name: composer_task_name
+- name: composer_operator
+type: composer

@@ -1,0 +1,12 @@
+keys:
+- name: monitoring_metric_domain
+- name: monitoring_metric_type
+- name: monitoring_resource_type
+- name: monitoring_prefix
+- name: monitoring_check_id
+- name: monitoring_checker_location
+- name: monitoring_checker_project_id
+- name: monitoring_checker_network
+- name: monitoring_checker_zone
+- name: monitoring_checked_resource_id
+type: monitoring

@@ -1,0 +1,6 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.bigquerybiengine.model.inflight_requests,Inflight requests,GAUGE,INT64,1,bigquery_biengine_model,"Inflight requests to a BI model. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
+gcp.bigquerybiengine.model.request_count,Request count,DELTA,INT64,1,bigquery_biengine_model,"BI Engine request count. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
+gcp.bigquerybiengine.model.request_latencies,Request execution times,GAUGE,DISTRIBUTION,ms,bigquery_biengine_model,"Distribution of request execution times. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
+gcp.bigquerybiengine.reservation.total_bytes,Reservation total bytes,GAUGE,INT64,By,bigquery_project,"Size of the BI engine reservation. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
+gcp.bigquerybiengine.reservation.used_bytes,Reservation used bytes,GAUGE,INT64,By,bigquery_project,"Utilization of the BI engine reservation. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."

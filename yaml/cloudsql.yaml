@@ -1,0 +1,22 @@
+keys:
+- name: cloudsql_state
+- name: cloudsql_destination
+- name: cloudsql_user
+- name: cloudsql_client_addr
+- name: cloudsql_io_type
+- name: cloudsql_lock_type
+- name: cloudsql_access_type
+- name: cloudsql_querystring
+- name: cloudsql_query_hash
+- name: cloudsql_action
+- name: cloudsql_application
+- name: cloudsql_controller
+- name: cloudsql_db_driver
+- name: cloudsql_framework
+- name: cloudsql_route
+- name: cloudsql_tag_hash
+- name: cloudsql_database
+- name: cloudsql_replica_name
+- name: cloudsql_replica_lag_type
+- name: cloudsql_transaction_type
+type: cloudsql

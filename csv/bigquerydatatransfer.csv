@@ -1,0 +1,4 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.bigquerydatatransfer.transfer_config.active_runs,Active run count,GAUGE,INT64,1,bigquery_dts_config,"Number of transfer runs that are running or pending of the transfer configuration. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
+gcp.bigquerydatatransfer.transfer_config.completed_runs,Completed run count,DELTA,INT64,1,bigquery_dts_config,"Number of completed DTS runs per transfer configuration. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
+gcp.bigquerydatatransfer.transfer_config.run_duration_seconds,Run latency distribution,DELTA,DISTRIBUTION,s,bigquery_dts_config,"Distribution of the execution time (in seconds) of each transfer run per transfer configuration. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."

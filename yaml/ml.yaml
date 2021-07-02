@@ -1,0 +1,9 @@
+keys:
+- name: ml_prediction_type
+- name: ml_latency_type
+- name: ml_replica_id
+- name: ml_response_code
+- name: ml_task_type
+- name: ml_task_index
+- name: ml_trial_id
+type: ml

@@ -1,0 +1,9 @@
+keys:
+- name: logging_resource_type
+- name: logging_log_source
+- name: logging_log_bucket_location
+- name: logging_log_bucket_id
+- name: logging_log
+- name: logging_severity
+- name: logging_label
+type: logging

@@ -1,0 +1,7 @@
+keys:
+- name: dataproc_status
+- name: dataproc_job_type
+- name: dataproc_state
+- name: dataproc_error_type
+- name: dataproc_operation_type
+type: dataproc

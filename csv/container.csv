@@ -1,0 +1,18 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.container.container.accelerator.duty_cycle,Accelerator duty cycle,GAUGE,INT64,1,gke_container,Percent of time over the past sample period (10s)during which the accelerator was actively processing. Sampled every 60 seconds.
+gcp.container.container.accelerator.memory_total,Accelerator memory total,GAUGE,INT64,By,gke_container,Total accelerator memory in bytes. Sampled every 60 seconds.
+gcp.container.container.accelerator.memory_used,Accelerator memory used,GAUGE,INT64,By,gke_container,Total accelerator memory allocated in bytes. Sampled every 60 seconds.
+gcp.container.container.accelerator.request,Request accelerators,GAUGE,INT64,{devices},gke_container,Number of accelerator devices requested by the container. Sampled every 60 seconds.
+gcp.container.container.cpu.reserved_cores,Reserved cores,GAUGE,DOUBLE,1,gke_container,"Number of cores of CPU reserved for the container. If no core limit is set, this will be zero. Sampled every 60 seconds."
+gcp.container.container.cpu.usage_time,CPU usage,CUMULATIVE,DOUBLE,s{CPU},gke_container,"Cumulative CPU usage on all cores in seconds. This number divided by the elapsed time represents usage as a number of cores, regardless of any core limit that might be set. Sampled every 60 seconds."
+gcp.container.container.cpu.utilization,CPU utilization,GAUGE,DOUBLE,10^2.%,gke_container,"The percentage of the allocated CPU that is currently in use on the container. Values are typically numbers between 0.0 and 1.0 (but might exceed 1.0),  charts display the values as a percentage between 0% and 100% (or more). If no core limit is set, then this metric is not set. Sampled every 60 seconds. After sampling, data is not visible for up to 360 seconds."
+gcp.container.container.disk.bytes_total,Disk capacity,GAUGE,INT64,By,gke_container,Total number of bytes of capacity on the disk identified by label ‘device_name’. Sampled every 60 seconds.
+gcp.container.container.disk.bytes_used,Disk usage,GAUGE,INT64,By,gke_container,Total number of bytes used on the disk identified by label ‘device_name’. Sampled every 60 seconds.
+gcp.container.container.disk.inodes_free,Inode free,GAUGE,INT64,1,gke_container,Free number of inodes on the disk identified by label 'device_name'. This metric is only for the `machine` container. Sampled every 60 seconds.
+gcp.container.container.disk.inodes_total,Inode capacity,GAUGE,INT64,1,gke_container,Total number of inodes on the disk identified by label 'device_name'. This metric is only for the `machine` container. Sampled every 60 seconds.
+gcp.container.container.memory.bytes_total,Memory limit,GAUGE,INT64,By,gke_container,Memory limit of the container in bytes. Sampled every 60 seconds.
+gcp.container.container.memory.bytes_used,Memory usage,GAUGE,INT64,By,gke_container,"Memory usage in bytes, broken down by type: evictable and non-evictable. Sampled every 60 seconds."
+gcp.container.container.memory.page_fault_count,Page faults,DELTA,INT64,1,gke_container,"Number of page faults, broken down by type: major and minor. Sampled every 60 seconds. After sampling, data is not visible for up to 360 seconds."
+gcp.container.container.pid_limit,PID capacity,GAUGE,INT64,1,gke_container,The max PID of OS on the node. This metric is only for the `machine` container. Sampled every 60 seconds.
+gcp.container.container.pid_used,PID usage,GAUGE,INT64,1,gke_container,The number of running process in the OS on the node. This metric is only for the `machine` container. Sampled every 60 seconds.
+gcp.container.container.uptime,Uptime,CUMULATIVE,DOUBLE,s,gke_container,Number of seconds since the container started. Sampled every 60 seconds.

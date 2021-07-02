@@ -1,0 +1,3 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.iam.service_account.authn_events_count,Authentication Events,DELTA,INT64,1,iam_service_account,"Number of authentication events for a service account. Sampled every 600 seconds. After sampling, data is not visible for up to 10800 seconds."
+gcp.iam.service_account.key.authn_events_count,Key Authentication Events,DELTA,INT64,1,iam_service_account,"Number of authentication events for a service account key. Sampled every 600 seconds. After sampling, data is not visible for up to 10800 seconds."

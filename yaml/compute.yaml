@@ -1,0 +1,28 @@
+keys:
+- name: compute_instance_name
+- name: compute_state
+- name: compute_mountoption
+- name: compute_mount_option
+- name: compute_device_name
+- name: compute_fstype
+- name: compute_fs_type
+- name: compute_direction
+- name: compute_value
+- name: compute_os_feature
+- name: compute_reason
+- name: compute_type
+- name: compute_kernel_version
+- name: compute_os_version
+- name: compute_storage_type
+- name: compute_device_type
+- name: compute_throttle_reason
+- name: compute_status
+- name: compute_loadbalanced
+- name: compute_metric_type
+- name: compute_nat_project_number
+- name: compute_router_id
+- name: compute_nat_gateway_name
+- name: compute_nat_ip
+- name: compute_ip_protocol
+- name: compute_limit_name
+type: compute

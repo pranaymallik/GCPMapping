@@ -1,0 +1,3 @@
+stackdriver_<monitoted_resource>_<component_googleapis_com>_subcomponent_metricname
+dns.query.latencies stackdriver_dns_query_dns_googleapis_com_dns_query_latencies
+dns.query.response_count stackdriver_dns_query_dns_googleapis_com_dns_query_response_count

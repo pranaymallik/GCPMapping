@@ -1,0 +1,5 @@
+keys:
+- name: file_file_share
+- name: file_name
+- name: file_version
+type: file

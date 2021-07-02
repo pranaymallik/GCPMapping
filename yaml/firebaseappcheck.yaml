@@ -1,0 +1,4 @@
+keys:
+- name: firebaseappcheck_result
+- name: firebaseappcheck_security
+type: firebaseappcheck

@@ -1,0 +1,4 @@
+keys:
+- name: tpu_container_name
+- name: tpu_core
+type: tpu

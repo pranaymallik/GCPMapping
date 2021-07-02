@@ -1,0 +1,2 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.firebaseappcheck.services.verdict_count,Firebase App Check verdict count,DELTA,INT64,1,firebaseappcheck.googleapis.com/Instance,"Verdicts from performing Firebase App Check verifications. Sampled every 60 seconds. After sampling, data is not visible for up to 120 seconds."

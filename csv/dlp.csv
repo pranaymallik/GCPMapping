@@ -1,0 +1,8 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.dlp.content_bytes_inspected_count,Content bytes inspected,DELTA,INT64,By,cloud_dlp_project,"Content bytes inspected. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
+gcp.dlp.content_bytes_transformed_count,Content bytes transformed,DELTA,INT64,By,cloud_dlp_project,"Content bytes transformed. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
+gcp.dlp.finding_count,Findings,DELTA,INT64,1,cloud_dlp_project,"Number of findings. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
+gcp.dlp.job_result_count,Job results,DELTA,INT64,1,cloud_dlp_project,"Job results. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
+gcp.dlp.job_trigger_run_count,Job trigger runs,DELTA,INT64,1,cloud_dlp_project,"Job trigger runs. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
+gcp.dlp.storage_bytes_inspected_count,Storage bytes inspected,DELTA,INT64,By,cloud_dlp_project,"Storage bytes inspected. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
+gcp.dlp.storage_bytes_transformed_count,Storage bytes transformed,DELTA,INT64,By,cloud_dlp_project,"Storage bytes transformed. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."

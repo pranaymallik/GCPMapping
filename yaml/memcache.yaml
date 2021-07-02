@@ -1,0 +1,6 @@
+keys:
+- name: memcache_used
+- name: memcache_mode
+- name: memcache_command
+- name: memcache_response_type
+type: memcache

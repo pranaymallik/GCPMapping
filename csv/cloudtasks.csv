@@ -1,0 +1,5 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.cloudtasks.api.request_count,API requests,DELTA,INT64,1,cloud_tasks_queue,"Count of Cloud Tasks API calls. Sampled every 60 seconds. After sampling, data is not visible for up to 240 seconds."
+gcp.cloudtasks.queue.depth,Queue depth,GAUGE,INT64,1,cloud_tasks_queue,"The number of tasks in the queue. Sampled every 60 seconds. After sampling, data is not visible for up to 120 seconds."
+gcp.cloudtasks.queue.task_attempt_count,Task attempt count,DELTA,INT64,1,cloud_tasks_queue,"Count of task attempts broken down by response code. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
+gcp.cloudtasks.queue.task_attempt_delays,Task attempt delays,DELTA,DISTRIBUTION,ms,cloud_tasks_queue,"Delay between each scheduled attempt time and actual attempt time. Sampled every 60 seconds. After sampling, data is not visible for up to 120 seconds."

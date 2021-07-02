@@ -1,0 +1,11 @@
+keys:
+- name: firestore_api_method
+- name: firestore_response_code
+- name: firestore_module
+- name: firestore_version
+- name: firestore_type
+- name: firestore_op
+- name: firestore_request_method
+- name: firestore_ruleset_label
+- name: firestore_result
+type: firestore

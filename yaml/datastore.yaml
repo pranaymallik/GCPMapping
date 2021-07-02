@@ -1,0 +1,6 @@
+keys:
+- name: datastore_api_method
+- name: datastore_response_code
+- name: datastore_type
+- name: datastore_op
+type: datastore

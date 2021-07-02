@@ -1,0 +1,4 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.autoscaler.capacity,Serving capacity,GAUGE,DOUBLE,1,autoscaler,"Utilization target multiplied by number of serving VMs. Sampled every 60 seconds. After sampling, data is not visible for up to 240 seconds."
+gcp.autoscaler.current_utilization,Current Autoscaler utilization,GAUGE,DOUBLE,1,autoscaler,"The sum of the utilization of a specified metric for all serving VMs. Sampled every 60 seconds. After sampling, data is not visible for up to 240 seconds."
+gcp.autoscaler.scheduled_size,Scheduled size,GAUGE,INT64,1,autoscaler,"The minimum number of VMs that the autoscaler recommends according to the scaling schedule. Sampled every 60 seconds. After sampling, data is not visible for up to 240 seconds."

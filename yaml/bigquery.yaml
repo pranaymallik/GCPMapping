@@ -1,0 +1,10 @@
+keys:
+- name: bigquery_priority
+- name: bigquery_job_type
+- name: bigquery_state
+- name: bigquery_statement_type
+- name: bigquery_reservation
+- name: bigquery_plan
+- name: bigquery_table
+- name: bigquery_api
+type: bigquery

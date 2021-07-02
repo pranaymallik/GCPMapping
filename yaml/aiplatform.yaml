@@ -1,0 +1,11 @@
+keys:
+- name: aiplatform_entity_type_id
+- name: aiplatform_method
+- name: aiplatform_error_code
+- name: aiplatform_storage_type
+- name: aiplatform_deployed_index_id
+- name: aiplatform_deployed_model_id
+- name: aiplatform_replica_id
+- name: aiplatform_latency_type
+- name: aiplatform_response_code
+type: aiplatform

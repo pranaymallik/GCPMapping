@@ -1,0 +1,4 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.recaptchaenterprise.assessments,Assessment request scores,DELTA,DISTRIBUTION,1,recaptchaenterprise.googleapis.com/Key,"Distribution of real-time assessment request scores. Sampled every 60 seconds. After sampling, data is not visible for up to 120 seconds."
+gcp.recaptchaenterprise.executes,Execute request scores,DELTA,DISTRIBUTION,1,recaptchaenterprise.googleapis.com/Key,"Distribution of execute request scores. Sampled every 60 seconds. After sampling, data is not visible for up to 120 seconds."
+gcp.recaptchaenterprise.score_counts,Score counts,DELTA,DISTRIBUTION,1,recaptchaenterprise.googleapis.com/Key,"Distribution of scores associated with a Key. Deprecated. Sampled every 60 seconds. After sampling, data is not visible for up to 120 seconds."

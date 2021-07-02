@@ -1,0 +1,5 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.datastore.api.request_count,Requests,DELTA,INT64,1,datastore_request,"Count of Datastore API calls. Sampled every 60 seconds. After sampling, data is not visible for up to 240 seconds."
+gcp.datastore.entity.read_sizes,Sizes of read entities,DELTA,DISTRIBUTION,By,datastore_request,"Distribution of sizes of read entities, grouped by type. Sampled every 60 seconds. After sampling, data is not visible for up to 240 seconds."
+gcp.datastore.entity.write_sizes,Sizes of written entities,DELTA,DISTRIBUTION,By,datastore_request,"Distribution of sizes of written entities, grouped by op. Sampled every 60 seconds. After sampling, data is not visible for up to 240 seconds."
+gcp.datastore.index.write_count,Index writes,DELTA,INT64,1,datastore_request,"Count of Datastore index writes. Sampled every 60 seconds. After sampling, data is not visible for up to 240 seconds."

@@ -1,0 +1,4 @@
+keys:
+- name: networksecurity_blocked
+- name: networksecurity_backend_target_name
+type: networksecurity

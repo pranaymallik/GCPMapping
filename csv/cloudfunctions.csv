@@ -1,0 +1,6 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.cloudfunctions.function.active_instances,Active instances,GAUGE,INT64,1,cloud_function,"The number of active function instances. Sampled every 60 seconds. After sampling, data is not visible for up to 240 seconds."
+gcp.cloudfunctions.function.execution_count,Executions,DELTA,INT64,1,cloud_function,"Count of function executions broken down by status. Sampled every 60 seconds. After sampling, data is not visible for up to 240 seconds."
+gcp.cloudfunctions.function.execution_times,Execution times,DELTA,DISTRIBUTION,ns,cloud_function,"Distribution of functions execution times in nanoseconds. Sampled every 60 seconds. After sampling, data is not visible for up to 240 seconds."
+gcp.cloudfunctions.function.network_egress,Network egress,DELTA,INT64,By,cloud_function,"Outgoing network traffic of function, in bytes. Sampled every 60 seconds. After sampling, data is not visible for up to 240 seconds."
+gcp.cloudfunctions.function.user_memory_bytes,Memory usage,DELTA,DISTRIBUTION,By,cloud_function,"Distribution of maximum function's memory usage during execution, in bytes. Sampled every 60 seconds. After sampling, data is not visible for up to 240 seconds."

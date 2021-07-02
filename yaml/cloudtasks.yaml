@@ -1,0 +1,4 @@
+keys:
+- name: cloudtasks_api_method
+- name: cloudtasks_response_code
+type: cloudtasks

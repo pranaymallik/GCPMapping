@@ -1,0 +1,2 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.apigateway.proxy.request_count,Request Count,DELTA,INT64,1,apigateway.googleapis.com/Gateway,"Number of requests served by API gateway. Sampled every 60 seconds. After sampling, data is not visible for up to 120 seconds."

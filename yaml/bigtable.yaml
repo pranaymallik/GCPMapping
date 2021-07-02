@@ -1,0 +1,9 @@
+keys:
+- name: bigtable_source_table
+- name: bigtable_storage_type
+- name: bigtable_source_cluster
+- name: bigtable_source_zone
+- name: bigtable_method
+- name: bigtable_error_code
+- name: bigtable_app_profile
+type: bigtable

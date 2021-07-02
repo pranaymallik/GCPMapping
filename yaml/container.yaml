@@ -1,0 +1,9 @@
+keys:
+- name: container_make
+- name: container_accelerator_id
+- name: container_model
+- name: container_resource_name
+- name: container_device_name
+- name: container_memory_type
+- name: container_fault_type
+type: container

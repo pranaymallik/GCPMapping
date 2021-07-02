@@ -1,0 +1,4 @@
+keys:
+- name: autoscaler_metric_type
+- name: autoscaler_schedule_name
+type: autoscaler

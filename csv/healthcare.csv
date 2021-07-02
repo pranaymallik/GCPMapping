@@ -1,0 +1,3 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.healthcare.data_protection.scan.status,Scan status,GAUGE,BOOL,(blank),healthcare.googleapis.com/DataProtectionStore,The status of scan.
+gcp.healthcare.data_protection.scan.violations,Violation,GAUGE,INT64,1,healthcare.googleapis.com/DataProtectionStore,The number of violations.

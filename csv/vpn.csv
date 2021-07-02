@@ -1,0 +1,9 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.vpn.gateway.connections,Number of connections,GAUGE,INT64,1,vpn_gateway,"Indicates the number of HA connections per VPN gateway. Sampled every 60 seconds. After sampling, data is not visible for up to 60 seconds."
+gcp.vpn.network.dropped_received_packets_count,Incoming packets dropped,DELTA,INT64,1,vpn_gateway,"Ingress (received from peer VPN) packets dropped for tunnel. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
+gcp.vpn.network.dropped_sent_packets_count,Outgoing packets dropped,DELTA,INT64,1,vpn_gateway,"Egress (directed to peer VPN) packets dropped for tunnel. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
+gcp.vpn.network.received_bytes_count,Received bytes,DELTA,INT64,By,vpn_gateway,"Ingress (received from peer VPN) bytes for tunnel. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
+gcp.vpn.network.received_packets_count,Received packets,DELTA,INT64,{packets},vpn_gateway,"Ingress (received from peer VPN) packets for tunnel. Sampled every 60 seconds. After sampling, data is not visible for up to 60 seconds."
+gcp.vpn.network.sent_bytes_count,Sent bytes,DELTA,INT64,By,vpn_gateway,"Egress (directed to peer VPN) bytes for tunnel. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
+gcp.vpn.network.sent_packets_count,Sent packets,DELTA,INT64,{packets},vpn_gateway,"Egress (directed to peer VPN) packets for tunnel. Sampled every 60 seconds. After sampling, data is not visible for up to 60 seconds."
+gcp.vpn.tunnel_established,Tunnel established,GAUGE,DOUBLE,1,vpn_gateway,"Indicates successful tunnel establishment if > 0. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."

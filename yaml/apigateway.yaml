@@ -1,0 +1,4 @@
+keys:
+- name: apigateway_response_code_class
+- name: apigateway_api_config
+type: apigateway

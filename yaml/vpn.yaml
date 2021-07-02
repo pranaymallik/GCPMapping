@@ -1,0 +1,8 @@
+keys:
+- name: vpn_configured_for_sla
+- name: vpn_gcp_service_health
+- name: vpn_end_to_end_health
+- name: vpn_tunnel_name
+- name: vpn_gateway_name
+- name: vpn_status
+type: vpn

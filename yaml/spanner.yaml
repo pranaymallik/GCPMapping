@@ -1,0 +1,12 @@
+keys:
+- name: spanner_database
+- name: spanner_status
+- name: spanner_method
+- name: spanner_backup
+- name: spanner_is_system
+- name: spanner_priority
+- name: spanner_category
+- name: spanner_storage_class
+- name: spanner_query_type
+- name: spanner_optimizer_version
+type: spanner

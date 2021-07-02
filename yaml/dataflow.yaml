@@ -1,0 +1,17 @@
+keys:
+- name: dataflow_job_id
+- name: dataflow_stage
+- name: dataflow_status
+- name: dataflow_ptransform
+- name: dataflow_bigquery_project_id
+- name: dataflow_bigquery_dataset_id
+- name: dataflow_bigquery_table_or_view_id
+- name: dataflow_storage_type
+- name: dataflow_pcollection
+- name: dataflow_subscription_project_id
+- name: dataflow_subscription_id
+- name: dataflow_topic_project_id
+- name: dataflow_topic_id
+- name: dataflow_function
+- name: dataflow_metric_name
+type: dataflow

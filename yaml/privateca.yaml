@@ -1,0 +1,7 @@
+keys:
+- name: privateca_reason
+- name: privateca_error_detail
+- name: privateca_cert_subject_key_id
+- name: privateca_status
+- name: privateca_state
+type: privateca

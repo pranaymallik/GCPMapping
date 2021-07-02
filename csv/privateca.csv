@@ -1,0 +1,11 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.privateca.ca.cert.ca_cert_creation,CA certificate creation count,DELTA,INT64,1,privateca.googleapis.com/CertificateAuthority,The number of certificates issued by a CA with CA:TRUE. Sampled every 60 seconds.
+gcp.privateca.ca.cert.create_count,Certificate creation count,DELTA,INT64,1,privateca.googleapis.com/CertificateAuthority,The number of certificates issued by a CA. Sampled every 60 seconds.
+gcp.privateca.ca.cert.create_failure_count,Certificate creation CA policy error count,DELTA,INT64,1,privateca.googleapis.com/CertificateAuthority,The number of certificate creation failures. Sampled every 60 seconds.
+gcp.privateca.ca.cert.create_request_count,Certificate creation request count,DELTA,INT64,1,privateca.googleapis.com/CertificateAuthority,The number of certificate creation requests per CA. Sampled every 60 seconds.
+gcp.privateca.ca.cert_chain_expiration,CA certificate chain expiration,GAUGE,INT64,s,privateca.googleapis.com/CertificateAuthority,Time (in seconds) until each CA certificate parent expires. Sampled every 3600 seconds.
+gcp.privateca.ca.cert_expiration,CA certificate expiration,GAUGE,INT64,s,privateca.googleapis.com/CertificateAuthority,Time (in seconds) until the CA certificate expires. Sampled every 3600 seconds.
+gcp.privateca.ca.cert_revoked,CA revocation status,GAUGE,BOOL,(blank),privateca.googleapis.com/CertificateAuthority,The CA certificate has been revoked. Value is true when revoked. Sampled every 3600 seconds.
+gcp.privateca.ca.resource_state,CA resource state,GAUGE,BOOL,(blank),privateca.googleapis.com/CertificateAuthority,"State of the certificate authority. Value is true when enabled, false otherwise. Sampled every 3600 seconds."
+gcp.privateca.gcs.bucket_issue,Cloud Storage bucket issue,GAUGE,BOOL,(blank),privateca.googleapis.com/CertificateAuthority,"Errors for Cloud Storage buckets. Value is false when OK, true when there are issues. Sampled every 3600 seconds."
+gcp.privateca.kms.key_issue,Cloud KMS key issue,GAUGE,BOOL,(blank),privateca.googleapis.com/CertificateAuthority,"Errors for Cloud KMS signing keys. Value is false when OK, true when there are issues. Sampled every 3600 seconds."

@@ -1,0 +1,10 @@
+keys:
+- name: contactcenterinsights_medium
+- name: contactcenterinsights_highlight_type
+- name: contactcenterinsights_highlight_name
+- name: contactcenterinsights_highlight_id
+- name: contactcenterinsights_response_code
+- name: contactcenterinsights_issue_model_name
+- name: contactcenterinsights_issue_name
+- name: contactcenterinsights_is_classified
+type: contactcenterinsights

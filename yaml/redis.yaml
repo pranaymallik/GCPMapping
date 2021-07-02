@@ -1,0 +1,9 @@
+keys:
+- name: redis_role
+- name: redis_cmd
+- name: redis_db
+- name: redis_slave
+- name: redis_space
+- name: redis_relationship
+- name: redis_direction
+type: redis

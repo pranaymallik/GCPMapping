@@ -1,0 +1,3 @@
+keys:
+- name: iam_key_id
+type: iam

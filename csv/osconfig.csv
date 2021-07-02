@@ -1,0 +1,2 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.osconfig.patch.job.instance_state,VM instance patch state,GAUGE,INT64,1,osconfig.googleapis.com/PatchJob,The number of VM instances that have patch jobs in a specific state.

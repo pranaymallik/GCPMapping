@@ -1,0 +1,5 @@
+keys:
+- name: firebasestorage_request_method
+- name: firebasestorage_ruleset_label
+- name: firebasestorage_result
+type: firebasestorage

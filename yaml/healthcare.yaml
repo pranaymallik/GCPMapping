@@ -1,0 +1,4 @@
+keys:
+- name: healthcare_category
+- name: healthcare_forseti_rule_type
+type: healthcare

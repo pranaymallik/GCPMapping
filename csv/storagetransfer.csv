@@ -1,0 +1,3 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.storagetransfer.agent.connected,Agent connected status,GAUGE,BOOL,(blank),transfer_service_agent,"Indicates whether or not a Transfer Service agent is connected. Sampled every 60 seconds. After sampling, data is not visible for up to 60 seconds."
+gcp.storagetransfer.agent.transferred_bytes_count,Agent transfer delta,DELTA,INT64,By,transfer_service_agent,"Delta of bytes transferred by a Transfer Service agent. Sampled every 60 seconds. After sampling, data is not visible for up to 60 seconds."

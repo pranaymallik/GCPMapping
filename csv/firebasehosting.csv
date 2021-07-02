@@ -1,0 +1,6 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.firebasehosting.network.monthly_sent,Bytes sent monthly,GAUGE,INT64,By,firebase_domain,"The total outgoing bytes sent aggregated and reset monthly. Sampled every 28800 seconds. After sampling, data is not visible for up to 4200 seconds."
+gcp.firebasehosting.network.monthly_sent_limit,Bytes sent limit,GAUGE,INT64,By,firebase_domain,"The monthly network limit for Firebase Hosting. Sampled every 28800 seconds. After sampling, data is not visible for up to 4200 seconds."
+gcp.firebasehosting.network.sent_bytes_count,Bytes sent,DELTA,INT64,By,firebase_domain,"The outgoing bandwidth usage for Firebase Hosting. Sampled every 60 seconds. After sampling, data is not visible for up to 15060 seconds."
+gcp.firebasehosting.storage.limit,Bytes stored limit,GAUGE,INT64,By,firebase_domain,The storage limit for Firebase Hosting. Sampled every 28800 seconds.
+gcp.firebasehosting.storage.total_bytes,Bytes stored,GAUGE,INT64,By,firebase_domain,The size of the Firebase Hosting storage. Sampled every 28800 seconds.

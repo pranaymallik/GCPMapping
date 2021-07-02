@@ -1,0 +1,8 @@
+keys:
+- name: pubsub_region
+- name: pubsub_response_code
+- name: pubsub_operation_type
+- name: pubsub_delivery_type
+- name: pubsub_criteria
+- name: pubsub_response_class
+type: pubsub

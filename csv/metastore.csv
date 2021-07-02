@@ -1,0 +1,3 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.metastore.service.health,Service health,GAUGE,INT64,1,metastore.googleapis.com/Service,The health of the Dataproc Metastore Service.
+gcp.metastore.service.request_count,Request count,DELTA,INT64,{request},metastore.googleapis.com/Service,The number of requests sent to the Dataproc Metastore Service.

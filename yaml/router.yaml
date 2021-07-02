@@ -1,0 +1,9 @@
+keys:
+- name: router_peer_ip
+- name: router_event_type
+- name: router_bgp_peer_name
+- name: router_routing_mode
+- name: router_nat_ip
+- name: router_ip_protocol
+- name: router_reason
+type: router

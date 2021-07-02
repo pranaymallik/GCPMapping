@@ -1,0 +1,5 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.contactcenterinsights.conversation_count,New Conversations,DELTA,INT64,1,contactcenterinsights.googleapis.com/Environment,Count of new conversations.
+gcp.contactcenterinsights.highlighted_conversation_count,Highlighted Conversations,DELTA,INT64,1,contactcenterinsights.googleapis.com/Environment,Count of Conversations with different highlights.
+gcp.contactcenterinsights.runtime_notification_count,Notifications from Contact Center AI Runtime,DELTA,INT64,1,contactcenterinsights.googleapis.com/Environment,Count of notifications from Contact Center AI Runtime.
+gcp.contactcenterinsights.topic_classification_count,Topic Classifications,DELTA,INT64,1,contactcenterinsights.googleapis.com/Environment,Count of topic classifications in conversations.

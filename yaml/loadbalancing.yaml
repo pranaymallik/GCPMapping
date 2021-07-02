@@ -1,0 +1,12 @@
+keys:
+- name: loadbalancing_protocol
+- name: loadbalancing_response_code
+- name: loadbalancing_response_code_class
+- name: loadbalancing_proxy_continent
+- name: loadbalancing_cache_result
+- name: loadbalancing_client_country
+- name: loadbalancing_client_continent
+- name: loadbalancing_client_network
+- name: loadbalancing_client_subnetwork
+- name: loadbalancing_client_zone
+type: loadbalancing

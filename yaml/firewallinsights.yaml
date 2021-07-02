@@ -1,0 +1,5 @@
+keys:
+- name: firewallinsights_network_name
+- name: firewallinsights_firewall_name
+- name: firewallinsights_firewall_project_id
+type: firewallinsights

@@ -1,0 +1,6 @@
+keys:
+- name: cloudiot_protocol
+- name: cloudiot_direction
+- name: cloudiot_error
+- name: cloudiot_operation_type
+type: cloudiot

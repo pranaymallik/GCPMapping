@@ -1,0 +1,7 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.actions.smarthome_action.local_event_count,Local event count,DELTA,INT64,1,assistant_action_project,"Count of events that only happens in LocalHomePlatform. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
+gcp.actions.smarthome_action.num_active_users,Daily active users,GAUGE,INT64,1,assistant_action_project,"Daily active users count. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
+gcp.actions.smarthome_action.request_count,Request count,DELTA,INT64,1,assistant_action_project,"Request count. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
+gcp.actions.smarthome_action.request_latencies,Request latencies,DELTA,DISTRIBUTION,ms,assistant_action_project,"Distribution of request latencies. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
+gcp.actions.smarthome_action.seven_day_active_users,7 day active users,GAUGE,INT64,1,assistant_action_project,"7 day active users count. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
+gcp.actions.smarthome_action.twenty_eight_day_active_users,28 day active users,GAUGE,INT64,1,assistant_action_project,"28 day active users count. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."

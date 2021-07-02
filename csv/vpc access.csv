@@ -1,0 +1,5 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.vpc access.connector.received_bytes_count,Bytes received delta,DELTA,INT64,By,vpc_access_connector,"Delta of bytes transferred by a VPC Access Connector. Sampled every 60 seconds. After sampling, data is not visible for up to 240 seconds."
+gcp.vpc access.connector.received_packets_count,Packets received delta,DELTA,INT64,{packet},vpc_access_connector,"Delta of packets received by a VPC Access Connector. Sampled every 60 seconds. After sampling, data is not visible for up to 240 seconds."
+gcp.vpc access.connector.sent_bytes_count,Bytes sent delta,DELTA,INT64,By,vpc_access_connector,"Delta of bytes transferred by a VPC Access Connector. Sampled every 60 seconds. After sampling, data is not visible for up to 240 seconds."
+gcp.vpc access.connector.sent_packets_count,Packets sent delta,DELTA,INT64,{packet},vpc_access_connector,"Delta of packets sent by a VPC Access Connector. Sampled every 60 seconds. After sampling, data is not visible for up to 240 seconds."

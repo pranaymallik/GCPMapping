@@ -1,0 +1,2 @@
+stackdriver_<monitoted_resource>_<component_googleapis_com>_subcomponent_metricname
+osconfig.patch.job.instance_state stackdriver_osconfig.googleapis.com/PatchJob_osconfig_googleapis_com_osconfig_patch_job_instance_state

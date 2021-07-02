@@ -1,0 +1,11 @@
+keys:
+- name: actions_intent
+- name: actions_status
+- name: actions_app_version
+- name: actions_model
+- name: actions_device_type
+- name: actions_locale
+- name: actions_trait
+- name: actions_is_local
+- name: actions_execution_type
+type: actions

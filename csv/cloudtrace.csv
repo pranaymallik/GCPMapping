@@ -1,0 +1,4 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.cloudtrace.bigquery_export.exported_span_count,Spans Exported to BigQuery,DELTA,INT64,1,cloudtrace.googleapis.com/CloudtraceProject,Counts per status of attempts to export spans to BigQuery via a TraceSink. Note that spans will be counted for each configured TraceSink that they match.
+gcp.cloudtrace.billing.monthly_spans_ingested,Monthly trace spans ingested,GAUGE,INT64,1,global,"Month-to-date trace spans ingested. Sampled every 1800 seconds. After sampling, data is not visible for up to 6000 seconds."
+gcp.cloudtrace.billing.spans_ingested,Trace spans ingested,DELTA,INT64,1,global,"Trace spans ingested. Sampled every 60 seconds. After sampling, data is not visible for up to 300 seconds."

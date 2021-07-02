@@ -1,0 +1,2 @@
+stackdriver_<monitoted_resource>_<component_googleapis_com>_subcomponent_metricname
+apigateway.proxy.request_count stackdriver_apigateway.googleapis.com/Gateway_apigateway_googleapis_com_apigateway_proxy_request_count

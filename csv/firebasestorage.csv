@@ -1,0 +1,2 @@
+metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
+gcp.firebasestorage.rules.evaluation_count,Rule evaluations,DELTA,INT64,1,gcs_bucket,"The number of Cloud Storage for Firebase Security Rules evaluations performed in response to write or read requests. Sampled every 60 seconds. After sampling, data is not visible for up to 180 seconds."
