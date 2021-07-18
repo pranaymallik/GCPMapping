@@ -10,9 +10,9 @@ METRIC_HEADERS = ["metric_name", "metric_display", "metric_kind", "metric_type",
 IGNORED_VALUES = ["BETA", "ALPHA", "GA", "DEPRECATED", "EARLY_ACCESS", ""]
 YAML_FILE = "gcp.yaml"
 CSV_FILE = "gcp.csv"
-CSV_FOLDER = "csv"
-YAML_FOLDER = "yaml"
-MAPPING_FOLDER = "mapping"
+CSV_FOLDER = "CSV_FOLDER"
+YAML_FOLDER = "YAML_FOLDER"
+MAPPING_FOLDER = "MAPPING_FOLDER"
 
 
 # create a class
@@ -30,7 +30,7 @@ class GCPExtractor:
         return self.page.content
 
     def generate_mapping(self):
-        path3 = './mapping'
+        path3 = './MAPPING_FOLDER'
         os.chdir(path3)
         categories = {}
         for row in self.csv_array:
@@ -59,7 +59,7 @@ class GCPExtractor:
             f.close()
     def generate_csv(self):
         index = 0
-        path2 = './csv'
+        path2 = './CSV_FOLDER'
         os.chdir(path2)
         categories = {}
         for row in self.csv_array:
@@ -93,7 +93,7 @@ class GCPExtractor:
             os.mkdir(NewFolder3)
 
     def generate_yaml(self):
-        path2 = './yaml'
+        path2 = './YAML_FOLDER'
         os.chdir(path2)
 
         metric_category_list = []
