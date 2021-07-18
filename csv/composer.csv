@@ -19,16 +19,20 @@ gcp.composer.environment.database.network.received_bytes_count,Database received
 gcp.composer.environment.database.network.sent_bytes_count,Database sent bytes,DELTA,INT64,By,cloud_composer_environment,Number of bytes sent by the database instance. Sampled every 60 seconds.
 gcp.composer.environment.database_health,Database Healthy,GAUGE,BOOL,(blank),cloud_composer_environment,Healthiness of Composer airflow database. Sampled every 60 seconds.
 gcp.composer.environment.executor.open_slots,Executor Open Slots,GAUGE,INT64,1,cloud_composer_environment,Number of open slots on executor. Sampled every 60 seconds.
+gcp.composer.environment.executor.queued_tasks,Executor Queued Tasks,GAUGE,INT64,1,cloud_composer_environment,Number of queued tasks on executor. Sampled every 60 seconds.
 gcp.composer.environment.executor.running_tasks,Executor Running Tasks,GAUGE,INT64,1,cloud_composer_environment,Number of running tasks on executor. Sampled every 60 seconds.
-gcp.composer.environment.finished_task_instance_count,Task Instance Count,DELTA,INT64,1,cloud_composer_environment,Overall task instances. Sampled every 60 seconds.
+gcp.composer.environment.finished_task_instance_count,Finished Task Instance Count,DELTA,INT64,1,cloud_composer_environment,Overall task instances in finished state. Sampled every 60 seconds.
 gcp.composer.environment.healthy,Healthy,GAUGE,BOOL,(blank),cloud_composer_environment,Healthiness of Composer environment. Sampled every 300 seconds.
 gcp.composer.environment.num_celery_workers,Celery Workers,GAUGE,INT64,1,cloud_composer_environment,Number of Celery workers. Sampled every 60 seconds.
 gcp.composer.environment.scheduler_heartbeat_count,Scheduler Heartbeats,DELTA,INT64,1,cloud_composer_environment,Scheduler heartbeats. Sampled every 60 seconds.
 gcp.composer.environment.task_queue_length,Task Queue Length,GAUGE,INT64,1,cloud_composer_environment,Number of tasks in queue. Sampled every 60 seconds.
+gcp.composer.environment.unfinished_task_instances,Unfinished Task Instances,GAUGE,INT64,1,cloud_composer_environment,Overall task instances in not finished state. Sampled every 60 seconds.
 gcp.composer.environment.web_server.cpu.reserved_cores,Web server CPU reserved cores,GAUGE,DOUBLE,1,cloud_composer_environment,Number of cores reserved for the web server instance. Sampled every 60 seconds.
 gcp.composer.environment.web_server.cpu.usage_time,Web server CPU usage time,DELTA,DOUBLE,s,cloud_composer_environment,CPU usage time of the web server instance. Sampled every 60 seconds.
 gcp.composer.environment.web_server.memory.bytes_used,Web server memory usage,GAUGE,INT64,By,cloud_composer_environment,Memory usage of the web server instance in bytes. Sampled every 60 seconds.
 gcp.composer.environment.web_server.memory.quota,Web server memory quota,GAUGE,INT64,By,cloud_composer_environment,Maximum RAM size in bytes of the web server instance. Sampled every 60 seconds.
+gcp.composer.environment.worker.max_workers,Maximum Airflow workers,GAUGE,INT64,1,cloud_composer_environment,Maximum number of Airflow workers. Sampled every 60 seconds.
+gcp.composer.environment.worker.min_workers,Minimum Airflow workers,GAUGE,INT64,1,cloud_composer_environment,Minimum number of Airflow workers. Sampled every 60 seconds.
 gcp.composer.environment.worker.pod_eviction_count,Worker Pod Eviction Count,DELTA,INT64,1,cloud_composer_environment,The number of Airflow worker pods evictions. Sampled every 60 seconds.
 gcp.composer.environment.worker.scale_factor_target,Workers scale factor target,GAUGE,DOUBLE,1,cloud_composer_environment,Scale factor for Airflow workers count. Sampled every 60 seconds.
 gcp.composer.environment.zombie_task_killed_count,Zombie Tasks Killed,DELTA,INT64,1,cloud_composer_environment,Number of zombie tasks killed. Sampled every 60 seconds.

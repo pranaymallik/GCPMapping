@@ -1,7 +1,7 @@
 metric_name,metric_display,metric_kind,metric_type,metric_ unit,metric_resource,metric_description
 gcp.bigquery.job.num_in_flight,Job count,GAUGE,INT64,1,bigquery_project,"In flight jobs. Sampled every 60 seconds. After sampling, data is not visible for up to 420 seconds."
 gcp.bigquery.query.count,Query count,GAUGE,INT64,1,"bigquery_project, global","In flight queries. Sampled every 60 seconds. After sampling, data is not visible for up to 420 seconds."
-gcp.bigquery.query.execution_times,Query execution times,GAUGE,DISTRIBUTION,s,"bigquery_project, global","Distribution of queries execution times. Sampled every 60 seconds. After sampling, data is not visible for up to 420 seconds."
+gcp.bigquery.query.execution_times,Query execution times,GAUGE,DISTRIBUTION,s,"bigquery_project, global","Distribution of execution times for queries that completed successfully within the last sampling interval. Incomplete and failed queries are not included. Sampled every 60 seconds. After sampling, data is not visible for up to 420 seconds."
 gcp.bigquery.query.scanned_bytes,Scanned bytes,DELTA,INT64,By,global,"Scanned bytes. Sampled every 60 seconds. After sampling, data is not visible for up to 21720 seconds."
 gcp.bigquery.query.scanned_bytes_billed,Scanned bytes billed,DELTA,INT64,By,global,"Scanned bytes billed. Sampled every 60 seconds. After sampling, data is not visible for up to 21720 seconds."
 gcp.bigquery.query.statement_scanned_bytes,Statement scanned bytes,DELTA,INT64,By,bigquery_project,"Scanned bytes broken down by statement type. Sampled every 60 seconds. After sampling, data is not visible for up to 21720 seconds."

@@ -30,7 +30,7 @@ class GCPExtractor:
         return self.page.content
 
     def generate_mapping(self):
-        path3 = 'C:\\Users\Pranay\PycharmProjects\GCPMappingAssignment/mapping'
+        path3 = './mapping'
         os.chdir(path3)
         categories = {}
         for row in self.csv_array:
@@ -59,7 +59,7 @@ class GCPExtractor:
             f.close()
     def generate_csv(self):
         index = 0
-        path2 = 'C:\\Users\Pranay\PycharmProjects\GCPMappingAssignment/csv'
+        path2 = './csv'
         os.chdir(path2)
         categories = {}
         for row in self.csv_array:
@@ -76,20 +76,24 @@ class GCPExtractor:
             writer.writerow(METRIC_HEADERS)
             writer.writerows(categories[category])
             f.close()
+        os.chdir('..')
 
 
     def generate_folders(self):
-        path = 'C:\\Users\Pranay\PycharmProjects\GCPMappingAssignment'
+        path = './'
         os.chdir(path)
-        NewFolder = CSV_FOLDER
-        os.mkdir(NewFolder)
-        NewFolder2 = YAML_FOLDER
-        os.mkdir(NewFolder2)
-        NewFolder3 = MAPPING_FOLDER
-        os.mkdir(NewFolder3)
+        if not os.path.exists(CSV_FOLDER):
+            NewFolder = CSV_FOLDER
+            os.mkdir(NewFolder)
+        if not os.path.exists(YAML_FOLDER):
+            NewFolder2 = YAML_FOLDER
+            os.mkdir(NewFolder2)
+        if not os.path.exists(MAPPING_FOLDER):
+            NewFolder3 = MAPPING_FOLDER
+            os.mkdir(NewFolder3)
 
     def generate_yaml(self):
-        path2 = 'C:\\Users\Pranay\PycharmProjects\GCPMappingAssignment/yaml'
+        path2 = './yaml'
         os.chdir(path2)
 
         metric_category_list = []
@@ -106,6 +110,7 @@ class GCPExtractor:
             with open(fileName+".yaml", 'w') as f:
                 yaml.dump(metric_category_list[counter], f)
             counter+=1
+        os.chdir('..')
 
     def process_content(self):
         soup = BeautifulSoup(self.page.content, 'html.parser')

@@ -14,4 +14,6 @@ keys:
 - name: dataflow_topic_id
 - name: dataflow_function
 - name: dataflow_metric_name
+- name: dataflow_limit_name
+- name: dataflow_endpoint
 type: dataflow
