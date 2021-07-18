@@ -51,7 +51,7 @@ class GCPExtractor:
             mapping_array.append(finalString)
             categories[category] = mapping_array
         for category in categories:
-            file_name = category+".mapping"
+            file_name = "GCP."+category+".mapping"
             f = open(file_name, 'w', newline='')
             f.write("stackdriver_<monitoted_resource>_<component_googleapis_com>_subcomponent_metricname\n")
             for i in categories[category]:
@@ -70,7 +70,7 @@ class GCPExtractor:
             csv_array.append(row)
             categories[category] = csv_array
         for category in categories:
-            file_name = category+".csv"
+            file_name = "GCP."+category+".csv"
             f = open(file_name, 'w', newline='')
             writer = csv.writer(f)
             writer.writerow(METRIC_HEADERS)
@@ -107,7 +107,7 @@ class GCPExtractor:
         counter = 0
         for fileNumber in metric_category_list:
             fileName = (metric_category_list[counter]['type'])
-            with open(fileName+".yaml", 'w') as f:
+            with open("GCP."+fileName+".yaml", 'w') as f:
                 yaml.dump(metric_category_list[counter], f)
             counter+=1
         os.chdir('..')
